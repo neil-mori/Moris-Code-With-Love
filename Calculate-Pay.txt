@@ -1,0 +1,15 @@
+#Calculating Pay
+hrs1=input("Enter Hour:")
+rate=input("Enter Rate:")
+h=float(hrs1)
+r=float(rate)
+pay1=h*r
+pay01=float(pay1)
+hrs2=input("Enter Hour:")
+h1=float(hrs2)
+rate2=input("Enter Rate:")
+rate3=float(rate)*float(1.5)
+rate4=float(rate3)
+pay2=h1*rate4
+pay02=float(pay2)
+print(pay01+pay02)

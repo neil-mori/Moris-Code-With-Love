@@ -1,0 +1,22 @@
+
+#Find your grade
+scor= input("Enter Score: ")
+score=float(scor)
+A='excellent'
+B='very good'
+C='Good'
+D='Satisfactory'
+F='Fail'
+if score>=0.9 and score<1.0:
+    print('A')
+elif score>=0.8 and score<0.9:
+    print('B')
+elif score>=0.7 and score<0.8:
+    print('C')
+elif score>=0.6 and score<0.7:
+    print('D')
+elif score<0.6 and score>0.0:
+    print('Fail')
+else:
+    print('The student was absent during exam')
+print('Best of luck for next exam')

@@ -1,0 +1,19 @@
+#Program# 01
+x=6
+if x<7:
+    print('Smaller')
+elif x<10:
+    print('Medium')
+else:
+    print('Large')
+print('All done')
+
+#program#02
+x=5
+if x>2:
+    print('The value is positive')
+elif x<6:
+    print('The value is larger')
+else:
+    print('The value is not found')
+print('All done')
