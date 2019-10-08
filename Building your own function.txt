@@ -1,0 +1,42 @@
+#Building your own function in Python(I have added several test program here, which I'm learning from U. Michigan, Coursera)
+
+#Testing Def:#1
+def thing():
+    print('Hello')
+    print('How are you')
+thing()
+print('I am good')
+thing()
+
+#Testing Def:#2
+
+def world(large):
+    if large=='es':
+        print('Hello')
+    elif large=='do':
+        print('Hola')
+    else:
+        print('Hi')
+world('en')
+world('es')
+world('do')
+
+#Testin Def:#3
+def greet():
+    return 'Hello'
+print(greet(),'Sam')
+print(greet(),'Simon')
+print(greet(),'Sam')
+
+#Testing Def:#4
+
+def world(large):
+    if large=='es':
+        return 'Hello'
+    elif large=='do':
+        return 'Hola'
+    else:
+        return 'Hi'
+print(world('en'),'Sam')
+print(world('es'),'Summa')
+print(world('do'),'John')
