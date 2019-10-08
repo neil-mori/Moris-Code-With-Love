@@ -1,0 +1,29 @@
+
+#Addition,Substraction, Multiplication & Division in Python
+#How to add two numbers
+def addtwonumber(a,b):
+    added= a+b
+    return added
+w=addtwonumber(3,5)
+print("W:",w)
+
+#How to substract two numbers
+def substwonumber(a,b):
+    substracted= a-b
+    return substracted
+x=substwonumber(5,3)
+print("X:",x)
+
+#How to multiply two numbers
+def mulwonumber(a,b):
+    multiplied= a*b
+    return multiplied
+y=mulwonumber(3,5)
+print("Y",y)
+
+#How to divide two numbers
+def divtwonumber(a,b):
+    divided= a/b
+    return divided
+z=divtwonumber(3,5)
+print("Z:",float(z))
